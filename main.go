@@ -105,7 +105,8 @@ func main() {
 		parser.Footnotes |
 		parser.Autolink |
 		parser.Strikethrough |
-		parser.SpaceHeadings
+		parser.SpaceHeadings |
+		parser.SuperSubscript
 
 	if attributes {
 		extensions |= parser.Attributes
