@@ -1,4 +1,4 @@
-module github.com/gomarkdown/mdtohtml
+module github.com/gazed/md2html
 
 go 1.18
 

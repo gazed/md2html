@@ -102,6 +102,7 @@ func main() {
 	var extensions = parser.NoIntraEmphasis |
 		parser.Tables |
 		parser.FencedCode |
+		parser.Footnotes |
 		parser.Autolink |
 		parser.Strikethrough |
 		parser.SpaceHeadings

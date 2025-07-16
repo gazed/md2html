@@ -1,13 +1,16 @@
 # Markdown to HTML cmd-line tool
 
+Cloned from `github.com/gomarkdown/mdtohtml` in order to
+tweak the hard coded extensions.
+
 If you have Go installed, install with:
 
-    go get -u github.com/gomarkdown/mdtohtml
+    go install github.com/gazed/md2html@latest
 
 To run:
 
-    mdtohtml [options] inputfile [outputfile]
+    md2html [options] inputfile [outputfile]
 
-Run `mdtohtml` to see all options.
+Run `md2html` to see all options.
 
-This is also an example of how to use [gomarkdown/markdown](https://github.com/gomarkdown/markdown) library.
+
